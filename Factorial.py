@@ -1,7 +1,10 @@
-def fact(n):
-    if n==0:
-        return 1
-    else:
-        return n*fact(n-1)
-n=int(input("Enter a number : "))
-print(fact(n))
+n=int(input("Enter a Number : "))
+fact=1
+if n==0:
+    print("1")
+elif n<0:
+    print("Factorial does not exit...")
+else:
+    for i in range(1,n+1):
+        fact*=i
+    print("Factorial of",n,"=",fact)
