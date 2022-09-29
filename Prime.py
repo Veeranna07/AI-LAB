@@ -1,10 +1,10 @@
-num=int(input("Enter a Number to check Prime or not : "))
-if num>1:
-    for i in range(2,num):
-        if (num%i)==0:
-            print(num,"is NOT a prime number")
+n=int(input("Enter a Number to check Prime or not : "))
+if n>1:
+    for i in range(2,n):
+        if (n%i)==0:
+            print(n,"is NOT a prime number")
             break
     else:
-        print(num, "is a prime number")
+        print(n, "is a prime number")
 else:
-    print(num, "is NOT a prime number")
+    print(n, "is NOT a prime number")
