@@ -1,3 +1,4 @@
+#pip3 install -q z3-solver
 import re
 import time
 
